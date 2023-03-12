@@ -1,27 +1,35 @@
 body {
     background-color: rgb(238, 231, 231);
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 80px;
 }
-
-#logo {
+ nav {position: fixed; top: 0;
+    left: 0;
+    right: 0;
+  width: 100%; z-index: 1;}
+.logo {
     background-color: rgb(40, 63, 92);
     height: 45px;
-    width: auto;
+    width:100%;
+    
+   
 }
 
-#logo img {
+.logo img {
     height: 25px;
     margin-left: 10px;
     margin-top: 5px;
 }
 
-#menu {
+.menu {
     background-color: rgb(57, 74, 95);
     height: 30px;
-    width: auto;
+    width: 100%;
 }
 
-#menu p {
+
+
+.menu p {
     color: white;
     margin: 0;
     word-spacing: 15px;
@@ -29,8 +37,9 @@ body {
     padding-top: 5px;
 }
 
-#menu p span {
+.menu p span {
     word-spacing: normal;
+    
 }
 
 #orange {
@@ -115,16 +124,71 @@ body {
 
 }
 
-.dog{right: 30px}
-.orologio {right:480px}
-.tablet {left: 30px;}
-.computer {left: 480px;}
-.addtocart {width: 300px; height: 60px;border-radius: 30px;right: 50px; background-color:#2F6E61; position: absolute; bottom:20px; opacity: 0; }
-.carrello {font-size: 30px;position: absolute; left: 20px; top: 13px; color: white; }
-.addtocart span{font-size: 30px; position: absolute; left: 100px; top: 10px; color: white; }
-.fa-heart {position: absolute; top: 20px; font-size: 50px; color: white; right: 20px; opacity: 0;}
-.image:hover .addtocart {opacity: 1; transition: 2s; bottom: 30px; cursor: pointer;}
-.image:hover .fa-heart {opacity:1; transition: 2s; top: 40px; cursor: pointer;}
+.dog {
+    right: 30px
+}
+
+.orologio {
+    right: 480px
+}
+
+.tablet {
+    left: 30px;
+}
+
+.computer {
+    left: 480px;
+}
+
+.addtocart {
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    right: 50px;
+    background-color: #2F6E61;
+    position: absolute;
+    bottom: 20px;
+    opacity: 0;
+}
+
+.carrello {
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    top: 13px;
+    color: white;
+}
+
+.addtocart span {
+    font-size: 30px;
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    color: white;
+}
+
+.fa-heart {
+    position: absolute;
+    top: 20px;
+    font-size: 50px;
+    color: white;
+    right: 20px;
+    opacity: 0;
+}
+
+.image:hover .addtocart {
+    opacity: 1;
+    transition: 2s;
+    bottom: 30px;
+    cursor: pointer;
+}
+
+.image:hover .fa-heart {
+    opacity: 1;
+    transition: 2s;
+    top: 40px;
+    cursor: pointer;
+}
 
 
 .image img {
@@ -159,6 +223,7 @@ body {
     color: rgba(0, 110, 46);
     font-size: smaller;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 #link {
@@ -232,7 +297,7 @@ body {
     left: 20px;
     bottom: 238px;
     font-size: 20px;
-    font-weight: bold;
+  
 }
 
 .img2 {
@@ -250,7 +315,7 @@ body {
     left: 230px;
     bottom: 235px;
     font-size: 20px;
-    font-weight: bold
+    
 }
 
 .img3 {
@@ -268,7 +333,7 @@ body {
     left: 20px;
     bottom: -5px;
     font-size: 20px;
-    font-weight: bold
+    
 }
 
 .img4 {
@@ -287,7 +352,7 @@ body {
     left: 230px;
     top: 450px;
     font-size: 20px;
-    font-weight: bold
+   
 }
 
 .titolocontainer {
@@ -302,3 +367,5 @@ body {
     font-size: smaller;
     font-weight: bold;
 }
+
+img {cursor: pointer;}
