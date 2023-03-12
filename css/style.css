@@ -80,13 +80,16 @@
 }
 
 .container:hover .containerarrow {
-  opacity: 1;transition: 2s; bottom:30px 
+  opacity: 1;transition: 2s; bottom:30px;
+  cursor: pointer;
 }
 
 .container:hover .containerpoint {
   opacity: 1;transition: 2s; bottom: 30px;
+  cursor: pointer;
 }
 
 .container:hover .save {
   opacity: 1; transition: 2s; top: 20px;
+  cursor: pointer;
 }
