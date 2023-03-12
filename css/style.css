@@ -1,6 +1,6 @@
 .container {
-  width: 700px;
-  height: 700px;
+  width: 500px;
+  height: 700px;;
   margin: auto auto;
   margin-top: 200px;
   position: relative;
@@ -9,6 +9,7 @@
 .img {
   border-radius: 50px;
   position: relative;
+  width: 100%;
   
 }
 
@@ -23,8 +24,8 @@
   text-align: center;
   padding-top: 25px;
   font-size: 30px;
-  right: 250px;
-  top: -50px;
+  right: 20px;
+  bottom: 40px;
   opacity: 0;
   transition: ease;
 
@@ -38,7 +39,7 @@
 .containerpoint {
   width: 50px;
   height: 50px;
-  ;
+  
   border-radius: 50%;
   text-align: center;
   background:rgba(255, 255, 255, 0.6);
@@ -47,25 +48,25 @@
 
 .position1 {
   position: absolute;
-  right: 250px;
-  bottom: -50px;
+  right: 20px;
+  bottom: 20px;
 }
 
 .position2 {
   position: absolute;
-  right: 350px;
-  bottom: -50px;
+  right:  80px;
+  bottom: 20px;
   
 }
 
 .containerarrow {
   
-  bottom:60px;
+  bottom: 20px;px;
   width: 250px;
   height: 50px;
   border-radius: 40px;
   position: absolute;
-  bottom: -50px;
+  
   left: 10px;
   background:rgba(255, 255, 255, 0.6);
   opacity: 0;
